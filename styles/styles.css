@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Afacad+Flux:wght@100..1000&family=Dancing+Script:wght@400..700&family=Liu+Jian+Mao+Cao&family=Lustria&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body
+{
+    font-family: "Abhaya-Libre",sans-serif;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:#DDBFE4;
+}
+
+main{
+    flex:1;
+}
+
+.drama-card
+{
+    min-height: 800px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.review-card
+{
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.navbar, footer
+{
+    background-color: #434c8f;
+    padding: 20px;
+    box-shadow: 2px 2px #677eb6;
+}
+
+.footer-text {
+    color:#F0EFF7 ;
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-family: "Dancing Script",sans-serif;
+    font-size: 30px;
+}
+
+.navbar-brand:hover,.nav-link:hover{
+    color: #c5a1ce ;
+}
+
+.navbar-brand,.nav-link{
+    color:#F0EFF7;
+    
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+.btn{
+    color: black;
+    background-color:#8496cc;
+    border: 1px solid #e7aef4;
+    
+}
+
+.btn:hover{
+    box-shadow: 3px 3px #bbc8ed;
+    transform: translateY(0.5px);
+}
+
+.card{
+    box-shadow: 3px 3px #e7aef4;
+    border: 3px solid #8496cc;
+    padding: 15px;
+
+}
+
+.card-text {
+    line-height: 15px;
+}
+
+.drama-card img{
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px #ECA2C8;
+}
+
+.badge
+{
+    background-color:#8496cc;
+    color: black;
+    border: 1px solid #e7aef4;
+}
+
+.card-title
+{
+    color: #953D60;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cast
+{
+    color: #953D60;
+    font-weight: bold;
+}
+
+
+h1
+{
+    margin: 35px;
+    font-size: 48px;
+    font-size: bold;
+    text-shadow: 1px 1px #434c8f;
+    color: #434c8f;
+}
